@@ -1,0 +1,13 @@
+/* navbar styles */
+.navbar {
+  width: 100%;
+  background: #ffcb05;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  margin-right: auto;
+}
+.navbar ul {
+  display: flex;
+  margin: 0 auto;
+  align-items: left;
+}
