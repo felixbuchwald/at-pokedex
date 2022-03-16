@@ -1,0 +1,47 @@
+.detailsContainer {
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.detailName {
+  color: #777;
+  font-size: 1.7em;
+}
+
+#atk {
+  height: 35px;
+  width: auto;
+  margin: 5px;
+}
+
+#speed {
+  height: 35px;
+  width: auto;
+  margin: 5px;
+}
+
+#hp {
+  height: 35px;
+  width: auto;
+  margin: 5px;
+}
+
+#def {
+  height: 35px;
+  width: auto;
+  margin: 5px;
+}
+
+#type {
+  margin-top: 45px;
+}
+
+.sprite {
+  height: 300px;
+  width: auto;
+}
+
+.title {
+  font-size: 26px;
+}

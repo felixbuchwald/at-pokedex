@@ -1,8 +1,12 @@
 import './PokemonList.css';
 import { useNavigate } from 'react-router-dom';
+import { useData } from '../../hooks/useData';
+import { useDetailsContext } from '../../hooks/useDetailsContext';
 
 export default function PokemonList({ pokemon }) {
+  const getPokemonDetails = useData();
   const navigate = useNavigate();
+  const { state } = useDetailsContext();
 
   const handleClick = (index) => {
     let id = index + 1;
@@ -10,7 +14,8 @@ export default function PokemonList({ pokemon }) {
   };
 
   const handleMouseOver = (url) => {
-    //getPokemonDetails(url);
+    getPokemonDetails(url);
+    console.log(state);
   };
 
   return (
